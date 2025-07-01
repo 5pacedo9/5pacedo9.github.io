@@ -25,7 +25,7 @@ author:
   avatar           : "sidebar-profile.png"
   name             : "Xuran Zhou"
   pronouns         : # example: "she/her"  
-  bio              : "Hi! I'm Xuran, a CSE Master student at UCSD"
+  bio              : # "Hi! I'm Xuran, a CSE Master student at UCSD"
   location         : "San Diego, CA"
   employer         : "University of California San Diego"
   uri              : # URL
