@@ -26,6 +26,7 @@ Experience
   2024.07 - 2025.03 Jiangsu Delauney Information Technology Co., Ltd.
 - Software Engineer (Intern)  
   2023.10 - 2024.06 Jiangsu Delauney Information Technology Co., Ltd.  
->    Focusing on CAD secondary development, adding functions to EICAD software and SSDP(Xuanjing)  
->   Responsible for the front-end and front-end development of other projects
+
+``Focusing on CAD secondary development, adding functions to EICAD software and SSDP(Xuanjing)``  
+``Responsible for the front-end and front-end development of other projects``
 
