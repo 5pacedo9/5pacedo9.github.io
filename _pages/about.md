@@ -8,7 +8,9 @@ redirect_from:
 ---
 
 
-Hi! I'm Xuran Zhou(周煦然), an incoming CSE graduate student at UCSD, expected to graduate in june 2027.
+Hi! I'm Xuran Zhou(周煦然), an incoming CSE graduate student at UCSD, expected to graduate in june 2027.  
+
+-----
 
 Education
 ======
@@ -20,6 +22,8 @@ Education
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2020.10-2024.06  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer Science and Technology, [Prof.Lijie Xu](https://yjs.njupt.edu.cn/dsgl/nocontrol/college/dsfcxq.htm?dsJbxxId=9B9D05C52DB22DCFE050007F01006EFE)
 
+-----
+
 Experience
 ======
 ### Jiangsu Delauney Information Technology Co., Ltd.  
@@ -29,4 +33,6 @@ Responsible for the front-end and front-end development of BIM collaboration pla
 
 - 2024.07 - 2025.03 Software Engineer
 - 2023.10 - 2024.06 Software Engineer (Intern)
+
+-----
 
