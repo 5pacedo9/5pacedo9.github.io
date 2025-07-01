@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-
+About me
+======
 Hi! I'm Xuran Zhou(周煦然), an incoming CSE graduate student at UCSD, expected to graduate in june 2027.
 
 Education
@@ -22,11 +23,9 @@ Education
 
 Experience
 ======
-- Software Engineer  
-  2024.07 - 2025.03 Jiangsu Delauney Information Technology Co., Ltd.
-- Software Engineer (Intern)  
-  2023.10 - 2024.06 Jiangsu Delauney Information Technology Co., Ltd.  
-
-``Focusing on CAD secondary development, adding functions to EICAD software and SSDP(Xuanjing)``  
-``Responsible for the front-end and front-end development of other projects``
+**Jiangsu Delauney Information Technology Co., Ltd.**
+- 2024.07 - 2025.03 Software Engineer
+- 2023.10 - 2024.06 Software Engineer (Intern)  
+> Focusing on CAD secondary development, adding functions to EICAD software and SSDP(Xuanjing)   
+> Responsible for the front-end and front-end development of other projects
 
