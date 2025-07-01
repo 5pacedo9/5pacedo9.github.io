@@ -22,9 +22,9 @@ Education
 
 Experience
 ======
-**Jiangsu Delauney Information Technology Co., Ltd.**
-- Focusing on CAD secondary development, adding functions to EICAD software and SSDP(Xuanjing)   
-- Responsible for the front-end and front-end development of BIM collaboration platform
+### Jiangsu Delauney Information Technology Co., Ltd.  
+Focusing on CAD secondary development, adding functions to EICAD software and SSDP(Xuanjing)   
+Responsible for the front-end and front-end development of BIM collaboration platform
 
 
 - 2024.07 - 2025.03 Software Engineer
