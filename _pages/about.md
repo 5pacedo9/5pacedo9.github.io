@@ -9,6 +9,8 @@ redirect_from:
 
 
 Hi! I'm Xuran Zhou(周煦然), an incoming CSE graduate student at UCSD, expected to graduate in june 2027.  
+I'm interested in Machine Learning and it's application in music.  
+I'm an amateur DJ and professional raver, I've also learned to play piano for several years.
 
 -----
 
