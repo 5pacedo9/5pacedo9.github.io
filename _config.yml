@@ -26,7 +26,7 @@ author:
   name             : "Xuran Zhou"
   pronouns         : # example: "she/her"  
   bio              : "Hi! I'm Xuran, a CSE Master student at UCSD"
-  location         : "San Diego, CA, USA; Nanjing, China"
+  location         : "San Diego, CA"
   employer         : "University of California San Diego"
   uri              : # URL
   email            : "xuranzhouATucsdDOTedu"
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/5pacedo9"
+  github           : "5pacedo9"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
