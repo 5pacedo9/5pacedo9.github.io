@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: # "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
 redirect_from: 
   - /about/
@@ -24,7 +24,7 @@ Experience
 - Software Engineer
     - 2024.07 - 2025.03 Jiangsu Delauney Information Technology Co., Ltd.
 - Software Engineer (Intern)
-    - 2023.10 - 2024.06 Jiangsu Delauney Information Technology Co., Ltd.
+    - 2023.10 - 2024.06 Jiangsu Delauney Information Technology Co., Ltd.  
 > Focusing on CAD secondary development, adding functions to EICAD software and SSDP(Xuanjing)  
 > Responsible for the front-end and front-end development of other projects
 
