@@ -31,7 +31,7 @@ Focusing on CAD secondary development, adding functions to EICAD software and SS
 Responsible for the front-end and front-end development of BIM collaboration platform
 
 
-- 2024.07 - 2025.03 Software Engineer
+- 2024.07 - 2025.02 Software Engineer
 - 2023.10 - 2024.06 Software Engineer (Intern)
 
 -----
