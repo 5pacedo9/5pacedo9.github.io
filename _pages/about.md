@@ -7,60 +7,67 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Xuran Zhou (周煦然), a 1st-year CSE graduate student at UCSD. I'm currently supervised by a Ph.D. student in Prof. Julian McAuley's group. My research interests include **NLP** and **automatic DJ systems**.
+
+Hi! I'm Xuran Zhou (周煦然), an M.S. student in Computer Science and Engineering at the University of California, San Diego.
+
+I am currently working in [Prof. Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/)'s group. My research interests include **natural language processing**, **trustworthy large language models**, and **music information retrieval**. I am also interested in **fully automated DJ systems**, especially automatic music mixing and DJ set generation.
 
 ---
 
 ## Education
 
-**M.S.**  
+**M.S. in Computer Science and Engineering**  
 **University of California, San Diego**  
-Sep. 2025 - Expected Jun. 2027  
-Computer Science and Engineering  
+Sep. 2025 – Expected Jun. 2027  
 
-**B.E.**  
-**Nanjing University of Posts and Telecommunications**(Tongda College)  
+**B.E. in Computer Science and Technology**  
+**Tongda College of Nanjing University of Posts and Telecommunications**  
 Oct. 2020 – Jun. 2024  
-Computer Science and Technology  
-Outstanding graduate  
+Outstanding Graduate   
 Advisor: [Prof. Lijie Xu](https://yjs.njupt.edu.cn/dsgl/nocontrol/college/dsfcxq.htm?dsJbxxId=9B9D05C52DB22DCFE050007F01006EFE)
 
 ---
 
 ## Research
 
-### Bias in Training (Oct. 2025 – Present)
-University of California, San Diego  
-- Analyzing bias patterns in large-scale training datasets  
-- Benchmarking language models under different training and fine-tune policies  
-- Exploring dataset-level mitigation strategies  
 
-### Automatic Electronic Music Mixing (Oct. 2025 – Present)
+### Bias in LLM Pretraining  
 University of California, San Diego  
-- Developing automatic electronic music mixing systems based on stem separation 
-- Investigating learning-based approaches for fader control
+Oct. 2025 – Present  
+
+I study how social bias emerges and evolves during language model pretraining. My current work analyzes bias behavior across model families, training checkpoints, and pretraining configurations, with a focus on evaluation, model behavior analysis, and interpretability.
+
+
+### Stem-Aware Automatic DJ Transition Generation  
+University of California, San Diego  
+Oct. 2025 – Present  
+
+I develop automatic DJ transition generation systems based on stem-level audio analysis. My current work formulates track-to-track mixing as an optimization problem over stem-level gain curves, with the goal of producing controllable and musically coherent transitions.
+
+### Intelligent DJ Set Generation System  
+Nanjing University of Posts and Telecommunications  
+Dec. 2023 – Jun. 2024  
+
+I developed a DJ-set generation and music-library management system that constructs playlists from user requirements and learned track attributes. The system used audio feature extraction, machine learning models, and graph-based track relationships to reduce manual set planning effort.
 
 ---
 
-## Working Experience
+## Industry Experience
 
 **Jiangsu Delauney Information Technology Co., Ltd.**
 
 - **Software Engineer** · Jul. 2024 – Feb. 2025  
-- **Software Engineer (Intern)** · Oct. 2023 – Jun. 2024  
+- **Software Engineer Intern** · Oct. 2023 – Jun. 2024  
 
-Focusing on CAD secondary development, adding functions to EICAD software and SSDP (Xuanjing).  
-Responsible for front-end and back-end development of a BIM collaboration platform.
+I worked on infrastructure digitalization, CAD secondary development, BIM collaboration platforms, and engineering data visualization. My work included developing functions for EICAD and SSDP (Xuanjing), as well as front-end and back-end components for engineering collaboration systems.
 
-## Interests
+---
 
-I enjoy music, especially electronic music, and I am an amateur DJ.  
-My interest in DJ performance also motivates my research in automatic music mixing systems.  
-I would like to thank the INFINITY Electronic Music Club at Southeast University and HEYA Nanking for providing me with valuable performance opportunities.  
-I participated in three editions of the IMF Electronic Music Festival and events hosted by HEYA, which played an important role in shaping my DJ life.  
-Performance videos can be found here: [IMF Festival 2025 Summer](https://www.bilibili.com/video/BV1KEEXzdEWe/?share_source=copy_web&vd_source=ef37e114a16939e516b2a3911510b80c)
+## Music and DJ
 
+Outside research, I enjoy electronic music and perform as an amateur DJ. My DJ experience has strongly shaped my research interest in automatic DJ systems.
 
+I participated in three editions of the IMF Electronic Music Festival and events hosted by HEYA Nanking. I am grateful to the INFINITY Electronic Music Club at Southeast University and HEYA Nanking for providing valuable performance opportunities.
 
-
+Performance video: [IMF Festival 2025 Summer](https://www.bilibili.com/video/BV1KEEXzdEWe/?share_source=copy_web&vd_source=ef37e114a16939e516b2a3911510b80c)
 
