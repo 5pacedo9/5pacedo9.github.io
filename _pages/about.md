@@ -28,27 +28,37 @@ Advisor: [Prof. Lijie Xu](https://yjs.njupt.edu.cn/dsgl/nocontrol/college/dsfcxq
 
 ---
 
+## Publications
+
+**Xuran Zhou**, Xunyi Jiang, Churan Zhi, Junda Wu, and Julian McAuley. “MixWeaver: Stem-Aware Automatic DJ Transition Generation via Structured Discrete Optimization.” *Proceedings of the International Society for Music Information Retrieval Conference (ISMIR)*, 2026. **Accepted.**
+
+---
+
 ## Research
 
+### Translating Latent Variables
 
-### Bias in LLM Pretraining  
-University of California, San Diego  
-Oct. 2025 – Present  
+*Remote · Jun. 2026 – Present · Advisor: Prof. Yujia Zheng*
 
-I study how social bias emerges and evolves during language model pretraining. My current work analyzes bias behavior across model families, training checkpoints, and pretraining configurations, with a focus on evaluation, model behavior analysis, and interpretability.
+I optimize semantic embeddings for unobserved variables in a causal graph using graph structure and textual labels from partially observed variables. I then decode the optimized embeddings into natural-language concepts to improve the interpretability of latent variables.
 
+### Tracing Biased Behaviors across LLM Training
 
-### Stem-Aware Automatic DJ Transition Generation  
-University of California, San Diego  
-Oct. 2025 – Present  
+*University of California, San Diego · Oct. 2025 – Present · Advisor: Prof. Julian McAuley*
 
-I develop automatic DJ transition generation systems based on stem-level audio analysis. My current work formulates track-to-track mixing as an optimization problem over stem-level gain curves, with the goal of producing controllable and musically coherent transitions.
+I investigate how social bias emerges and evolves during language-model pretraining across the OLMo and Pythia model families. My work compares behavior across training checkpoints, random seeds, and data mixtures, and uses causal tracing to localize biased behavior in pre-trained and post-trained models.
 
-### Intelligent DJ Set Generation System  
-Nanjing University of Posts and Telecommunications  
-Dec. 2023 – Jun. 2024  
+### MixWeaver: Stem-Aware Automatic DJ Transition Generation
 
-I developed a DJ-set generation and music-library management system that constructs playlists from user requirements and learned track attributes. The system used audio feature extraction, machine learning models, and graph-based track relationships to reduce manual set planning effort.
+*University of California, San Diego · Oct. 2025 – Jul. 2026 · Advisor: Prof. Julian McAuley*
+
+I formulated automatic track-to-track DJ mixing as a constrained discrete optimization problem over stem-level gain curves. MixWeaver combines beat, tempo, key, and structure analysis with stem-specific transition candidates and genetic-algorithm search to generate controllable, musically coherent transitions. This work was accepted to ISMIR 2026.
+
+### Intelligent DJ Set Generation System
+
+*Nanjing University of Posts and Telecommunications · Dec. 2023 – Jun. 2024 · Advisor: Prof. Lijie Xu*
+
+I developed a DJ-set generation and music-library management system that produces playlists from user requirements and learned track attributes. The system combines a PyQt interface, a SQLite-backed music database, Essentia/TensorFlow models, and graph-based track relationships, reducing manual set planning from days to seconds.
 
 ---
 
