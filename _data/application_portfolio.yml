@@ -1,0 +1,94 @@
+# Edit project text, credits and media here. Empty URLs render as plain "To add" text.
+# The summaries below come from _pages/about.md. Confirm all credits before submission.
+intro: "I’m Xuran Zhou, a computer science M.S. student at UC San Diego. My work connects music information retrieval, automatic DJ systems, and electronic music performance."
+projects:
+  - id: mixweaver
+    number: "01"
+    title: MixWeaver
+    subtitle: Stem-aware automatic DJ transition generation
+    category: Research / Music system
+    period: Oct. 2025 – Jul. 2026
+    location: University of California, San Diego
+    distinction: ISMIR 2026 · Accepted
+    summary: "How can an automatic DJ make transitions that are both musically coherent and controllable? MixWeaver treats track-to-track mixing as a constrained discrete optimization problem over stem-level gain curves."
+    contribution: "I formulated the optimization problem and combined musical analysis, stem-specific transition candidates, and genetic-algorithm search."
+    methods: "Beat, tempo, key, and structure analysis; stem-level gain curves; discrete optimization; genetic-algorithm search."
+    context: "Research advised by Prof. Julian McAuley. The work was accepted to ISMIR 2026."
+    collaborators: "Xuran Zhou, Xunyi Jiang, Churan Zhi, Junda Wu, and Julian McAuley."
+    credits_pending: "Confirm the exact division of implementation, experiments, and writing among all collaborators."
+    tags: [Music information retrieval, Optimization, Audio]
+    image_path: /images/portfolio/mixweaver-paper-fig1.png
+    image_alt: "MixWeaver pipeline showing track analysis, alignment, stem preparation, and genetic optimization."
+    image_width: 1664
+    image_height: 813
+    materials:
+      - label: Paper
+        url: "https://drive.google.com/file/d/1AaciRYgY_9G7UyVaKr_Uq5cZ4sxyxWHH/edit"
+      - label: Code
+        url: "https://github.com/5pacedo9/MixWeaver"
+    audio_url: ""
+    audio_caption: ""
+    video_url: ""
+    video_caption: ""
+
+  - id: dj-system
+    number: "02"
+    title: From a music library to a DJ set
+    subtitle: Intelligent DJ Set Generation System
+    category: Software / Music system
+    period: Dec. 2023 – Jun. 2024
+    location: Nanjing University of Posts and Telecommunications
+    distinction: System development
+    summary: "A DJ-set generation and music-library management system that builds playlists from user requirements and learned track attributes, bringing music analysis into the set-planning workflow."
+    contribution: "I developed the system, connecting a PyQt interface and SQLite music database with audio-analysis models and graph-based track relationships."
+    methods: "Python, PyQt, SQLite, Essentia / TensorFlow models, and graph-based track relationships."
+    context: "Developed under the supervision of Prof. Lijie Xu."
+    collaborators: "Advisor: Prof. Lijie Xu."
+    credits_pending: "Confirm individual authorship and credit any additional contributors, third-party models, and datasets."
+    tags: [Music software, Audio analysis, Python]
+    image_path: /images/portfolio/dj-system-thesis-fig5-11.png
+    image_alt: "Software interface showing the music library, analysis controls, and Generate DJ Set button."
+    image_width: 1145
+    image_height: 909
+    materials:
+      - label: Code
+        url: ""
+    audio_url: ""
+    video_url: ""
+
+  - id: live-dj
+    number: "03"
+    title: Performance
+    subtitle: IMF Festival 2025 Summer — DJ performance
+    category: Creative practice / Performance
+    period: Summer 2025
+    location: ""
+    distinction: Live DJ performance
+    summary: "My experience performing electronic music shapes the questions I ask about automatic DJ systems. This selected festival recording connects that research interest with live musical practice."
+    contribution: "DJ performance."
+    methods: ""
+    context: "Performance at IMF Electronic Music Festival."
+    collaborators: "Performer: Xuran Zhou."
+    credits_pending: "Add the recording and production credits, track / artist credits, exact venue, date, and excerpt timestamps."
+    tags: [DJ performance, Electronic music, Creative practice]
+    image_path: ""
+    materials:
+      - label: Watch performance ↗
+        url: https://www.bilibili.com/video/BV1KEEXzdEWe/
+    audio_url: ""
+    video_url: ""
+
+
+publications:
+  - number: "01"
+    type: Conference paper
+    title: "MixWeaver: Stem-Aware Automatic DJ Transition Generation via Structured Discrete Optimization"
+    note: "Xuran Zhou, Xunyi Jiang, Churan Zhi, Junda Wu, and Julian McAuley · ISMIR 2026 · Accepted"
+    url: "https://drive.google.com/file/d/1AaciRYgY_9G7UyVaKr_Uq5cZ4sxyxWHH/edit"
+    link_label: Paper
+  - number: "02"
+    type: "CausalBridge · Preprint"
+    title: "How Causality Bridges the Semantic Gap"
+    note: "Shuhao Zhang, Xuran Zhou, Han Guo, Pengtao Xie, and Yujia Zheng · arXiv:2610.02594 · 2026"
+    url: "https://arxiv.org/abs/2610.02594"
+    link_label: arXiv

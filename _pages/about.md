@@ -12,6 +12,8 @@ Hi! I'm Xuran Zhou (周煦然), an M.S. student in Computer Science and Engineer
 
 I am currently working in [Prof. Julian McAuley](https://cseweb.ucsd.edu/~jmcauley/)'s group. My research interests include **natural language processing**, **trustworthy large language models**, and **music information retrieval**. I am also interested in **fully automated DJ systems**, especially automatic music mixing and DJ set generation.
 
+[**Explore my portfolio →**]({{ "/portfolio/" | relative_url }}) — selected research, music systems, and creative work.
+
 ---
 
 ## Education
@@ -78,6 +80,3 @@ I worked on infrastructure digitalization, CAD secondary development, BIM collab
 Outside research, I enjoy electronic music and perform as an amateur DJ. My DJ experience has strongly shaped my research interest in automatic DJ systems.
 
 I participated in three editions of the IMF Electronic Music Festival and events hosted by HEYA Nanking. I am grateful to the INFINITY Electronic Music Club at Southeast University and HEYA Nanking for providing valuable performance opportunities.
-
-Performance video: [IMF Festival 2025 Summer](https://www.bilibili.com/video/BV1KEEXzdEWe/?share_source=copy_web&vd_source=ef37e114a16939e516b2a3911510b80c)
-

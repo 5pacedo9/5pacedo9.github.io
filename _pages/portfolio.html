@@ -1,14 +1,107 @@
 ---
-layout: archive
+layout: default
 title: "Portfolio"
 permalink: /portfolio/
-author_profile: true
+author_profile: false
+portfolio_page: true
+portfolio_template: true
+description: "Selected research, music systems, and creative work by Xuran Zhou."
 ---
+{% assign portfolio = site.data.application_portfolio %}
+<main id="main" class="portfolio-page">
+  <div class="pf-topline">
+    <a href="{{ '/' | relative_url }}">Home <span aria-hidden="true">/</span> <span class="pf-current">Portfolio</span></a>
+  </div>
 
-{% include base_path %}
+  <header class="pf-hero">
+    <div>
+      <p class="pf-eyebrow">Research · Systems · Sound</p>
+      <h1>Research &amp;<br><em>creative work.</em></h1>
+      <p class="pf-intro">{{ portfolio.intro }}</p>
+      <div class="pf-hero-links">
+        <a class="pf-primary" href="#selected-work">Explore selected work <span aria-hidden="true">↘</span></a>
+        <a class="pf-text-link" href="#scholarly-writing">Publications</a>
+      </div>
+    </div>
+    <aside class="pf-identity" aria-label="About the author">
+      <p class="pf-name">Xuran Zhou <span lang="zh">周煦然</span></p>
+      <p>University of California, San Diego<br>M.S. · Computer Science &amp; Engineering</p>
+    </aside>
+  </header>
 
+  <section id="selected-work" class="pf-work" aria-labelledby="work-title">
+    <div class="pf-section-heading">
+      <h2 id="work-title"><span class="pf-section-number">01 /</span> Selected work</h2>
+      <span class="pf-small">{{ portfolio.projects | size }} selected projects</span>
+    </div>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+    <div id="portfolio-projects">
+      {% for project in portfolio.projects %}
+      <article class="pf-project{% if forloop.first %} pf-project-featured{% endif %}{% unless project.image_path and project.image_path != '' %} pf-project-no-image{% endunless %}" id="{{ project.id }}" aria-labelledby="{{ project.id }}-title">
+        <div class="pf-project-content">
+          <p class="pf-project-category">{{ project.category | escape }}</p>
+          <p class="pf-project-meta"><span>{{ project.period }}</span><span>{{ project.distinction }}</span></p>
+          <h3 id="{{ project.id }}-title">{{ project.title }}</h3>
+          <p class="pf-project-subtitle">{{ project.subtitle }}</p>
+          <p class="pf-project-summary">{{ project.summary }}</p>
+          {% if project.image_path and project.image_path != '' %}
+          <figure class="pf-project-figure">
+            <div class="pf-visual pf-source-visual">
+              <img src="{{ project.image_path | relative_url }}" alt="{{ project.image_alt | escape }}" width="{{ project.image_width }}" height="{{ project.image_height }}" {% unless forloop.first %}loading="lazy"{% endunless %}>
+            </div>
+          </figure>
+          {% endif %}
+          <div class="pf-contribution"><h4>My contribution</h4><p>{{ project.contribution }}</p></div>
+          <ul class="pf-tags" aria-label="Topics">{% for tag in project.tags %}<li>{{ tag }}</li>{% endfor %}</ul>
+          <div class="pf-materials" aria-label="Project materials">
+            {% for material in project.materials %}
+              {% if material.url and material.url != '' %}
+              <a href="{% if material.url contains '://' %}{{ material.url | escape }}{% else %}{{ material.url | relative_url | escape }}{% endif %}"{% if material.url contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ material.label | escape }}</a>
+              {% elsif page.portfolio_template %}
+              <span class="pf-pending">{{ material.label }} <small>To add</small></span>
+              {% endif %}
+            {% endfor %}
+          </div>
+          {% if project.audio_url and project.audio_url != '' %}
+          <div class="pf-media"><audio controls preload="none" aria-label="{{ project.title | escape }} audio example" src="{% if project.audio_url contains '://' %}{{ project.audio_url | escape }}{% else %}{{ project.audio_url | relative_url | escape }}{% endif %}"></audio>{% if project.audio_caption %}<p>{{ project.audio_caption | escape }}</p>{% endif %}</div>
+          {% endif %}
+          {% if project.video_url and project.video_url != '' %}
+          <div class="pf-media"><video controls preload="none" playsinline aria-label="{{ project.title | escape }} video" src="{% if project.video_url contains '://' %}{{ project.video_url | escape }}{% else %}{{ project.video_url | relative_url | escape }}{% endif %}"></video>{% if project.video_caption %}<p>{{ project.video_caption | escape }}</p>{% endif %}</div>
+          {% endif %}
+          <details class="pf-details">
+            <summary>Project notes &amp; credits <span aria-hidden="true">+</span></summary>
+            <dl>
+              <dt>When &amp; where</dt><dd>{{ project.period }}{% if project.location and project.location != '' %} · {{ project.location }}{% endif %}</dd>
+              {% if project.methods and project.methods != '' %}<dt>Methods &amp; process</dt><dd>{{ project.methods }}</dd>{% endif %}
+              <dt>Context</dt><dd>{{ project.context }}</dd>
+              <dt>Collaborators &amp; credits</dt><dd>{{ project.collaborators }}</dd>
+            </dl>
+          </details>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
 
+  <section id="scholarly-writing" class="pf-writing" aria-labelledby="writing-title">
+    <div class="pf-section-heading">
+      <h2 id="writing-title"><span class="pf-section-number">02 /</span> Publications</h2>
+      <span class="pf-small">Papers &amp; preprints</span>
+    </div>
+    <p class="pf-section-intro">Selected publications and preprints.</p>
+    <div class="pf-writing-list">
+      {% for sample in portfolio.publications %}
+      {% if page.portfolio_template or sample.url and sample.url != '' %}
+      <article class="pf-writing-item">
+        <span class="pf-writing-number">{{ sample.number }}</span>
+        {% capture writing_url %}{% if sample.url contains '://' %}{{ sample.url | escape }}{% else %}{{ sample.url | relative_url | escape }}{% endif %}{% endcapture %}
+        <div><p class="pf-eyebrow">{{ sample.type }}</p><h3>{% if sample.url and sample.url != '' %}<a href="{{ writing_url }}">{{ sample.title }}</a>{% else %}{{ sample.title }}{% endif %}</h3><p>{{ sample.note }}</p></div>
+        {% if sample.url and sample.url != '' %}<a class="pf-writing-link" href="{{ writing_url }}">{{ sample.link_label | default: "Read paper" | escape }}</a>{% else %}<span class="pf-writing-pending">{{ sample.pending }}</span>{% endif %}
+      </article>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+</main>
+<script src="{{ '/assets/js/portfolio.js' | relative_url }}" defer></script>
